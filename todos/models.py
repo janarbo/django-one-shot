@@ -21,3 +21,5 @@ class TodoItem(models.Model):
     list = models.ForeignKey(
         "TodoList", related_name="items", on_delete=models.CASCADE
     )
+
+
